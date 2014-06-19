@@ -65,3 +65,5 @@ for (i in 1:30) #loop over subjects
     newRow <- apply(subset(allData,Subject ==i & Activity == j),2,mean)
     df <- rbind(df,newRow)
   }
+  
+  write.table(df,file = "tidy.txt", row.names = FALSE)
