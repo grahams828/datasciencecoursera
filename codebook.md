@@ -1,4 +1,4 @@
-#CODEBOOK for Coursera Getting adn Cleaning Data Project
+#CODEBOOK for Coursera Getting and Cleaning Data Project
 
 ##Identifying Variables
 
